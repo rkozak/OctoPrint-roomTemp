@@ -23,7 +23,7 @@ $(function() {
                 self.isRaspi(true);
             }
 
-            self.roomTemp(_.sprintf("Environment: %.1f&deg;c", data.roomtemp));
+            self.roomTemp(_.sprintf("Cannuck MP3DP Environment Temp: %.1f&deg;c", data.roomtemp));
         };
     }
 
